@@ -1,0 +1,25 @@
+form .choice-details .choice-title{
+	font-size: 20px;
+	font-weight: 500;
+
+
+}
+form .choice-details .category{
+	display: flex;
+	width: 50%;
+	margin: 14px 0;
+	justify-content: space-between; 
+}
+.choice-details .category label{
+	display: flex;
+
+}
+.choice-details .category .dot{
+	height: 18px;
+	width: 18px;
+	background: grey;
+	border-radius: 50%;
+	margin-right: 10px;
+	border: 5px solid transparent;
+	transition: all 0.3s ease;
+}
